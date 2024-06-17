@@ -1,0 +1,114 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>JS Problem-01</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <div class="container-fluid">
+        <div class="container card my-5 p-4 ui">
+            <h3>Character Cheat UI</h3>
+            <div class="bar px-2">
+                <div class="group-bar-item">
+                    <label id="hp-max">HP: <span id="hp-left"></span>/</label>
+                    <div id="hp" class="hp-bar">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+                <div class="group-bar-item">
+                    <label id="mp-max">MP: <span id="mp-left"></span>/</label>
+                    <div id="mp" class="mp-bar">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                </div>
+            </div>
+            <div class="menu">
+                <div class="btn-set mt-5">
+                    <div class="flex1">
+                        <input id="hp-1" type="button" value="-1 HP" class="btn btn-outline-danger" />
+                        <input id="hp-half" type="button" value="-Half HP" class="btn btn-outline-danger" />
+                        <input id="hp-all" type="button" value="-All HP" class="btn btn-outline-danger" />
+                    </div>
+                    <div class="flex2">
+                        <input id="mp-1" type="button" value="-1 MP" class="btn btn-outline-primary" />
+                        <input id="mp-half" type="button" value="-Half MP" class="btn btn-outline-primary" />
+                        <input id="mp-all" type="button" value="-All MP" class="btn btn-outline-primary" />
+                    </div>
+                </div>
+                <div class="btn-set mt-1">
+                    <div class="flex1">
+                        <input id="hp+1" type="button" value="+1 HP" class="btn btn-outline-success" />
+                        <input id="hp+half" type="button" value="+Half HP" class="btn btn-outline-success" />
+                        <input id="hp+all" type="button" value="+Full HP" class="btn btn-outline-success" />
+                    </div>
+                    <div class="flex2">
+                        <input id="mp+1" type="button" value="+1 MP" class="btn btn-outline-warning" />
+                        <input id="mp+half" type="button" value="+Half MP" class="btn btn-outline-warning" />
+                        <input id="mp+all" type="button" value="+Full MP" class="btn btn-outline-warning" />
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <script type="module" src="script.js"></script>
+</body>
+
+</html>
